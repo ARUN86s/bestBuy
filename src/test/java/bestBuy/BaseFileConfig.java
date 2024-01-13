@@ -25,4 +25,8 @@ public static WebDriver driver = null;
         driver.get("https://www.bestbuy.com/");
 		}	
 			
-		}	
+	@AfterClass
+	public void close() {
+		   // Close the browser or session
+		   driver.close();
+		}}	

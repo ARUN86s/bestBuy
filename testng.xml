@@ -3,6 +3,8 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
+      <class name="bestBuy.placeOrdeTestCases"/>
+      <class name="bestBuy.singUpTestCases"/>
       <class name="bestBuy.testCaseList"/>
     </classes>
   </test> <!-- Test -->
